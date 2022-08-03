@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Web</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav>
+        <img src="imagenes/logo.jpg" alt="logo"> 
+        <a href="index.html">Inicio</a>   
+        <a href="sobreMi.html">Sobre Mí</a>
+        <a href="contacto.html">Contacto</a> 
+        <a href="#">Comprar</a>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+    </nav>
+    <hr>
+    <form action="">
+        <h1>Contacto</h1>
+        <h5>Ingrese sus datos para poder contactarnos.</h5>
+
+        <label for="">Nombre:</label>        
+        <input type="text" name="Nombre" id="Nombre">
+        <label for="">Apellido:</label>
+        <input type="text" name="Apellido" id="Apellido">
+        <br>
+        <br>
+        <label for="">Email:</label>
+        <input type="email" name="Email" id="Email">
+        <label for="">Telefono:</label>
+        <input type="tel" name="Telefono" id="Telefono">
+        <br><br>
+        <label for="">Password</label>
+        <input type="password" id="pass">
+        <label for="">Mayor de 18</label>
+        <input type="checkbox" id="Mayor">
+        <br><br>
+        <label for="">Fecha de Nacimiento</label>
+        <input type="date" name="" id="fechaNacimiento">
+        <label for="">Código Postal: </label>
+        <input type="number" name="" id="cp" min="0" max="9999">
+        <label for="">Campo Oculto</label>
+        <input type="hidden">
+        <br><br>
+        <label for="">Edad:</label>
+        <br>
+            <input type="radio" id="menos18" name="menos18">
+            <label for="menos18">Menos de 18</label>
+            <input type="radio" id="18a30" name="18a30">
+            <label for="18a30">18 a 30</label>
+        <br>
+        <label for="">Mensaje:</label>
+        <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
+        <br><br>
+        <label for="">Cargar archivo</label><br>
+        <input type="file" name="archivo" id="archivo">
+        <br><br>
+        <label for="">Género</label>
+        <select name="" id="genero">
+            <option value="0"></option>
+            <option value="1">Masculino</option>
+            <option value="2">Femenino</option>
+            <option value="3">No binario</option>
+
+        </select>
+        <br>
+        <button type="button">Enviar</button>
+        <button type="reset">Limpiar</button>
+    </form>
+</body>
+</html>
